@@ -14,15 +14,6 @@ Option Explicit On
 Partial Public Class Beranda
 
     '''<summary>
-    '''Image1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Image1 As Global.System.Web.UI.WebControls.Image
-
-    '''<summary>
     '''Image2 control.
     '''</summary>
     '''<remarks>
@@ -84,22 +75,4 @@ Partial Public Class Beranda
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Image8 As Global.System.Web.UI.WebControls.Image
-
-    '''<summary>
-    '''Image9 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Image9 As Global.System.Web.UI.WebControls.Image
-
-    '''<summary>
-    '''Image10 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Image10 As Global.System.Web.UI.WebControls.Image
 End Class

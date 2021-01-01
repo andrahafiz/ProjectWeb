@@ -37,15 +37,6 @@ UMKMSocmed
  Returns the Asp log object.
  </summary>
 </member>
-<member name="F:UMKMSocmed.Beranda._Image1">
-<summary>
-Image1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
 <member name="F:UMKMSocmed.Beranda._Image2">
 <summary>
 Image2 control.
@@ -109,18 +100,90 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:UMKMSocmed.Beranda._Image9">
+<member name="F:UMKMSocmed.ListUMKM._Image1">
 <summary>
-Image9 control.
+Image1 control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:UMKMSocmed.Beranda._Image10">
+<member name="F:UMKMSocmed.ListUMKM._Image4">
 <summary>
-Image10 control.
+Image4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.PersonalUMKM1._Image3">
+<summary>
+Image3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.PersonalUMKM1._Image2">
+<summary>
+Image2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.PersonalUMKM1._Image1">
+<summary>
+Image1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.PersonalUMKM1._Image4">
+<summary>
+Image4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.PersonalUMKM1._Image5">
+<summary>
+Image5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.UMKM._Image4">
+<summary>
+Image4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.UMKM._Image1">
+<summary>
+Image1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.UMKM._Image2">
+<summary>
+Image2 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -139,6 +202,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:UMKMSocmed.Site1._ContentPlaceHolder1">
 <summary>
 ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.Utama._Image1">
+<summary>
+Image1 control.
 </summary>
 <remarks>
 Auto-generated field.

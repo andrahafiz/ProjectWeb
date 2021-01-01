@@ -173,7 +173,10 @@ section .wrapper {
 }
 
 .btn-primary {
-    background: #27aae1;
+    /* background-color: #2c50ee;
+    background-image: linear-gradient(180deg,#27aae1 0%, #667ef5 100%);*/
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #27aae1 0%, #2147ff 100%);
     padding: 7px 25px;
     border: none;
     font-size: 14px;
@@ -1297,7 +1300,10 @@ ul.online-users {
             margin-top: -60px;
             border: 7px solid #fff;
         }
-
+.umkmlist {
+    width: 1030px;
+    height: 100px;
+}
 
 /*==================================================
   Chat Room CSS
@@ -1511,7 +1517,7 @@ ul.online-users {
   ==================================================*/
 
 .timeline-cover {
-    background: url("http://placehold.it/1030x360") no-repeat;
+    background: url(../images/background1.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     min-height: 360px;

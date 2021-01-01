@@ -988,6 +988,10 @@
     <Content Include="fonts\ionicons.svg" />
     <Content Include="Global.asax" />
     <Content Include="Guest\Beranda.aspx" />
+    <Content Include="Guest\ListUMKM.aspx" />
+    <Content Include="Guest\as.aspx" />
+    <Content Include="Guest\PersonalUMKM.aspx" />
+    <Content Include="Guest\UMKM.aspx" />
     <Content Include="images\app-store.png" />
     <Content Include="images\background1.jpg" />
     <Content Include="images\blur.png" />
@@ -1006,6 +1010,7 @@
     <Content Include="images\user1.jpg" />
     <Content Include="images\user2.jpg" />
     <Content Include="images\user3.jpg" />
+    <Content Include="images\user4.jpg" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-3.1.1.min.js" />
@@ -1032,6 +1037,41 @@
     <Compile Include="Guest\Beranda.aspx.vb">
       <DependentUpon>Beranda.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Guest\ListUMKM.aspx.designer.vb">
+      <DependentUpon>ListUMKM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Guest\ListUMKM.aspx.vb">
+      <DependentUpon>ListUMKM.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Guest\as.aspx.designer.vb">
+      <DependentUpon>as.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Guest\as.aspx.vb">
+      <DependentUpon>as.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Guest\PersonalUMKM.aspx.designer.vb">
+      <DependentUpon>PersonalUMKM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Guest\PersonalUMKM.aspx.vb">
+      <DependentUpon>PersonalUMKM.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Guest\UMKM.aspx.designer.vb">
+      <DependentUpon>UMKM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Guest\UMKM.aspx.vb">
+      <DependentUpon>UMKM.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Guest\UtamaUMKM.Master.designer.vb">
+      <DependentUpon>UtamaUMKM.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Guest\UtamaUMKM.Master.vb">
+      <DependentUpon>UtamaUMKM.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="LandingPage.aspx.designer.vb">
       <DependentUpon>LandingPage.aspx</DependentUpon>
@@ -1114,6 +1154,7 @@
     <Content Include="fonts\ionicons.eot" />
     <Content Include="fonts\ionicons.ttf" />
     <Content Include="fonts\ionicons.woff" />
+    <Content Include="Guest\UtamaUMKM.Master" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

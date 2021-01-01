@@ -59,24 +59,65 @@
         </nav>
     </header>
     <body>
-        <form id="form1" runat="server">
+        <div id="page-contents">
+            <div class="container">
+                <div class="row">
 
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+                    <!-- Newsfeed Common Side Bar Left
+          ================================================= -->
+                    <div class="col-md-3 static">
+                        <div class="profile-card">
+                            <asp:Image ID="Image1" runat="server" AlternateText="user" CssClass="profile-photo" ImageUrl="~/images/user1.jpg" />
+                            <%--<img src="../images/user1.jpg" alt="user" class="profile-photo" />--%>
+                            <h5><a href="timeline.html" class="text-white">John Lufth</a></h5>
+                            <a href="#" class="text-white"><i class="ion ion-android-person-add"></i>1,299 followers</a>
+                        </div>
+                        <!--profile card ends-->
+                        <ul class="nav-news-feed">
+                            <li><i class="icon ion-ios-paper"></i>
+                                <div>
+                                    <asp:HyperLink NavigateUrl="~/Guest/Beranda.aspx" runat="server">POSTINGAN</asp:HyperLink></div>
+                            </li>
+                            </li>
+                        <li><i class="icon ion-ios-people"></i>
+                            <div>
+                                <asp:HyperLink NavigateUrl="~/Guest/UMKM.aspx" runat="server">UMKM</asp:HyperLink></div>
+                        </li>
+                            <li><i class="icon ion-ios-people-outline"></i>
+                                <div>
+                                    <asp:HyperLink NavigateUrl="~/Guest/ListUMKM.aspx" runat="server">UMKM YANG DIIKUTI</asp:HyperLink></div>
+                            </li>
+                            <li><i class="icon ion-images"></i>
+                                <div><a href="newsfeed-images.html">Images</a></div>
+                            </li>
+                            <li><i class="icon ion-ios-videocam"></i>
+                                <div><a href="newsfeed-videos.html">Videos</a></div>
+                            </li>
+                        </ul>
 
-        </form>
-        <!--preloader-->
-        <div id="spinner-wrapper">
-            <div class="spinner"></div>
-        </div>
+                    </div>
+                    <form id="form1" runat="server">
 
-        <!-- Scripts
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+
+                    </form>
+                   <%-- <footer id="footer">
+                        <div class="copyright">
+                            <p>Thunder Team © 2020. All rights reserved</p>
+                        </div>
+                    </footer>--%>
+                    <!--preloader-->
+                    <div id="spinner-wrapper">
+                        <div class="spinner"></div>
+                    </div>
+
+                    <!-- Scripts
     ================================================= -->
-        <script src="../js/jquery-3.1.1.min.js"></script>
-        <script src="../js/bootstrap.min.js"></script>
-        <script src="../js/jquery.appear.min.js"></script>
-        <script src="../js/jquery.incremental-counter.js"></script>
-        <script src="../js/script.js"></script>
-
+                    <script src="../js/jquery-3.1.1.min.js"></script>
+                    <script src="../js/bootstrap.min.js"></script>
+                    <script src="../js/jquery.appear.min.js"></script>
+                    <script src="../js/jquery.incremental-counter.js"></script>
+                    <script src="../js/script.js"></script>
     </body>
 </html>
