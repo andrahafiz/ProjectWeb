@@ -9,7 +9,9 @@
           ================================================= -->
                 <div class="col-md-3 static">
                     <div class="profile-card">
-                        <img src="../images/user1.jpg" alt="user" class="profile-photo" />
+
+                        <asp:Image ID="Image1" runat="server" AlternateText="user" CssClass="profile-photo" ImageUrl="~/images/user1.jpg" />
+                        <%--<img src="../images/user1.jpg" alt="user" class="profile-photo" />--%>
                         <h5><a href="timeline.html" class="text-white">John Lufth</a></h5>
                         <a href="#" class="text-white"><i class="ion ion-android-person-add"></i>1,299 followers</a>
                     </div>
@@ -43,9 +45,10 @@
                     <!-- Post Content
             ================================================= -->
                     <div class="post-content">
-                        <img src="../images/testgambar.jpg" alt="post-image" class="img-responsive post-image" />
+                         <asp:Image ID="Image2" runat="server" AlternateText="post-image" CssClass="img-responsive post-image" ImageUrl="~/images/testgambar.jpg" />
+                        
                         <div class="post-container">
-                            <img src="../images/testgambar.jpg" alt="user" class="profile-photo-md pull-left" />
+                             <asp:Image ID="Image3" runat="server" AlternateText="user" CssClass="profile-photo-md pull-left" ImageUrl="~/images/testgambar.jpg" />
                             <div class="post-detail">
                                 <div class="row">
                                     <div class="col-xs-10">
@@ -67,11 +70,13 @@
                                 </div>
                                 <div class="line-divider"></div>
                                 <div class="post-comment">
-                                    <img src="../images/user3.jpg" alt="" class="profile-photo-sm" />
+                                     <asp:Image ID="Image4" runat="server" AlternateText="" CssClass="profile-photo-sm" ImageUrl="~/images/user3.jpg" />
+                                    <%--<img src="../images/user3.jpg" alt="" class="profile-photo-sm" />--%>
                                     <p><a href="timeline.html" class="profile-link">Diana </a>Mantul Min</p>
                                 </div>
                                 <div class="post-comment">
-                                    <img src="../images/user1.jpg" alt="" class="profile-photo-sm" />
+                                    <asp:Image ID="Image5" runat="server" AlternateText="" CssClass="profile-photo-sm" ImageUrl="~/images/user1.jpg" />
+                                    <%--<img src="../images/user1.jpg" alt="" class="profile-photo-sm" />--%>
                                     <input type="text" class="form-control" placeholder="Komentar">
                                 </div>
                             </div>
@@ -85,7 +90,8 @@
                             <source src="../videos/cloth_video.mp4" type="video/mp4">
                         </video>
                         <div class="post-container">
-                            <img src="http://placehold.it/300x300" alt="user" class="profile-photo-md pull-left" />
+                            <asp:Image ID="Image6" runat="server" AlternateText="user" CssClass="profile-photo-md pull-left" ImageUrl="http://placehold.it/300x300" />
+                            <%--<img src="http://placehold.it/300x300" alt="user" class="profile-photo-md pull-left" />--%>
                             <div class="post-detail">
                                     <div class="row">
                                     <div class="col-xs-10">
@@ -106,19 +112,23 @@
                                 </div>
                                 <div class="line-divider"></div>
                                 <div class="post-comment">
-                                    <img src="http://placehold.it/300x300" alt="" class="profile-photo-sm" />
+                                    <asp:Image ID="Image7" runat="server" AlternateText="" CssClass="profile-photo-sm" ImageUrl="http://placehold.it/300x300" />
+                                    <%--<img src="http://placehold.it/300x300" alt="" class="profile-photo-sm" />--%>
                                     <p><a href="timeline.html" class="profile-link">Olivia </a>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <i class="em em-anguished"></i>Ut enim ad minim veniam, quis nostrud </p>
                                 </div>
                                 <div class="post-comment">
-                                    <img src="http://placehold.it/300x300" alt="" class="profile-photo-sm" />
+                                    <asp:Image ID="Image8" runat="server" AlternateText="" CssClass="profile-photo-sm" ImageUrl="http://placehold.it/300x300" />
+                                    <%--<img src="http://placehold.it/300x300" alt="" class="profile-photo-sm" />--%>
                                     <p><a href="timeline.html" class="profile-link">Sarah</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                                 </div>
                                 <div class="post-comment">
-                                    <img src="http://placehold.it/300x300" alt="" class="profile-photo-sm" />
+                                    <asp:Image ID="Image9" runat="server" AlternateText="" CssClass="profile-photo-sm" ImageUrl="http://placehold.it/300x300" />
+                                    <%--<img src="http://placehold.it/300x300" alt="" class="profile-photo-sm" />--%>
                                     <p><a href="timeline.html" class="profile-link">Linda</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                 </div>
                                 <div class="post-comment">
-                                    <img src="http://placehold.it/300x300" alt="" class="profile-photo-sm" />
+                                    <asp:Image ID="Image10" runat="server" AlternateText="" CssClass="profile-photo-sm" ImageUrl="http://placehold.it/300x300" />
+                                    <%--<img src="http://placehold.it/300x300" alt="" class="profile-photo-sm" />--%>
                                     <input type="text" class="form-control" placeholder="Post a comment">
                                 </div>
                             </div>
