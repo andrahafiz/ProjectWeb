@@ -14,6 +14,15 @@ Option Explicit On
 Partial Public Class Utama
 
     '''<summary>
+    '''LinkIconBeranda control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents LinkIconBeranda As Global.System.Web.UI.WebControls.HyperLink
+
+    '''<summary>
     '''Image1 control.
     '''</summary>
     '''<remarks>

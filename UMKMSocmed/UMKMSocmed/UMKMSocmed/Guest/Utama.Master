@@ -41,8 +41,10 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index-register.html">
-                        <img src="../images/logo.png" alt="logo" /></a>
+
+                    
+                        <asp:HyperLink ID="LinkIconBeranda" runat="server" CssClass="navbar-brand" NavigateUrl="~/Guest/Beranda.aspx"> <img src="../images/logo.png" alt="logo" /></asp:HyperLink>
+             
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
