@@ -30,8 +30,8 @@
                         <div class="card-info">
                             <img src="http://placehold.it/300x300" alt="user" class="profile-photo-lg">
                             <div class="friend-info">
-                                <h5><a href="timeline.html" class="profile-link">Sophia Lee</a></h5>
-                                <p>Student at Harvard</p>
+                                <h5><a href="timeline.html" class="profile-link">Erigo</a></h5>
+                                <p>Pakaian</p>
                             </div>
                         </div>
                     </div>

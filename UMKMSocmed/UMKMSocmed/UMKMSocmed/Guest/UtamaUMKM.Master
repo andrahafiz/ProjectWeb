@@ -41,13 +41,13 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <asp:HyperLink ID="LinkIconBeranda" runat="server" CssClass="navbar-brand" NavigateUrl="~/Guest/Beranda.aspx"> <img src="../images/logo.png" alt="logo" /></asp:HyperLink>
+                    <asp:HyperLink ID="LinkIconBeranda" runat="server" CssClass="navbar-brand" NavigateUrl="~/Guest/Beranda.aspx"> <img src="" alt="logo" /></asp:HyperLink>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right main-menu">
-                        <li class="dropdown"><a href="contact.html">Login UMKM</a></li>
+                        <li class="dropdown"><a href="../LandingPage.aspx">Login UMKM</a></li>
                     </ul>
 
 

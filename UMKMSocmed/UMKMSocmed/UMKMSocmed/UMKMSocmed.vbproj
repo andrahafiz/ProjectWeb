@@ -1021,8 +1021,10 @@
     <Content Include="js\masonry.pkgd.min.js" />
     <Content Include="js\npm.js" />
     <Content Include="js\script.js" />
+    <Content Include="LandingPageGuest.aspx" />
     <Content Include="LandingPage.aspx" />
-    <Content Include="UMKM\Beranda.aspx" />
+    <Content Include="UMKM\Profile.aspx" />
+    <Content Include="UMKM\TentangUMKM.aspx" />
     <Content Include="videos\1.mp4" />
     <Content Include="videos\cloth_video.mp4" />
     <Content Include="Web.config" />
@@ -1073,6 +1075,13 @@
       <DependentUpon>UtamaUMKM.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="LandingPageGuest.aspx.designer.vb">
+      <DependentUpon>LandingPageGuest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LandingPageGuest.aspx.vb">
+      <DependentUpon>LandingPageGuest.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="LandingPage.aspx.designer.vb">
       <DependentUpon>LandingPage.aspx</DependentUpon>
     </Compile>
@@ -1112,11 +1121,18 @@
       <DependentUpon>Utama.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UMKM\Beranda.aspx.designer.vb">
-      <DependentUpon>Beranda.aspx</DependentUpon>
+    <Compile Include="UMKM\Profile.aspx.designer.vb">
+      <DependentUpon>Profile.aspx</DependentUpon>
     </Compile>
-    <Compile Include="UMKM\Beranda.aspx.vb">
-      <DependentUpon>Beranda.aspx</DependentUpon>
+    <Compile Include="UMKM\Profile.aspx.vb">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="UMKM\TentangUMKM.aspx.designer.vb">
+      <DependentUpon>TentangUMKM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UMKM\TentangUMKM.aspx.vb">
+      <DependentUpon>TentangUMKM.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="UMKM\UtamaUMKM.Master.designer.vb">
@@ -1124,7 +1140,6 @@
     </Compile>
     <Compile Include="UMKM\UtamaUMKM.Master.vb">
       <DependentUpon>UtamaUMKM.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -11,7 +11,7 @@
             <div class="post-container">
                 <asp:Image ID="Image3" runat="server" AlternateText="user" CssClass="profile-photo-md pull-left" ImageUrl="~/images/user3.jpg" />
                 <div class="post-detail">
-                    <div class="row">
+                    <div class="row">   
                         <div class="col-xs-10">
                             <div class="user-info">
                                 <h5>
