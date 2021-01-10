@@ -21,7 +21,7 @@
                             </ul>
                             <!--Tabs End-->
                         </div>
-
+                        
                         <!--Registration Form Contents-->
                         <div class="tab-content">
                             <div class="tab-pane active" id="register">
@@ -29,38 +29,52 @@
 
 
                                 <!--Register Form-->
-                                <form name="registration_form" id="registration_form" class="form-inline">
+                                <form name="registration_form" id="registration_form" class="form-inline" action="Guest/Beranda.aspx" >
                                     <div class="row">
-                                        <div class="form-group col-xs-12">
-                                            <label for="name" class="sr-only">Name</label>
-                                            <input id="name" class="form-control input-group-lg" type="text" name="name" title="Enter Name" placeholder="Your Name">
+                                        <div class="form-group col-xs-12 " style="margin-bottom: 0px;">
+
+                                            <%--<asp:TextBox id="TextBox1" Text="Comment" runat="server"/>--%>
+                                            <%--<asp:TextBox ID="name" runat="server" CssClass="form-control input-group-lg"></asp:TextBox>--%>
+                                            <%--<input name="name" type="text" runat="server" id="reg-name"  class="form-control input-group-lg" placeholder="Nama" />--%>
+                                            <%--<input id="name" class="form-control input-group-lg" type="text" name="name" title="Enter Name" placeholder="Your Name">--%>
+                                            <%--<input type="text" runat="server" class="form-control input-group-lg" id="regis-name" name="name" />--%>
+                                            <input type="text" id="test" runat="server" class="form-control input-group-lg" placeholder="Nama" />
+                                            <asp:RequiredFieldValidator ID="reqval_nama" runat="server" ErrorMessage="Inputan nama harus diisi" CssClass="text-danger" ControlToValidate="test"></asp:RequiredFieldValidator>
+
                                         </div>
                                     </div>
+
                                     <div class="row">
-                                        <div class="form-group col-xs-12">
+                                        <div class="form-group col-xs-12" style="margin-bottom: 0px;">
                                             <label for="username" class="sr-only">Username</label>
-                                            <input id="username" class="form-control input-group-lg" type="text" name="username" title="Enter username" placeholder="Your username">
+                                            <input id="username" runat="server" class="form-control input-group-lg" type="text" name="username" title="Masukan username" placeholder="Username">
+                                            <asp:RequiredFieldValidator ID="reqval_username" runat="server" ErrorMessage="Inputan username harus diisi" CssClass="text-danger" ControlToValidate="username"></asp:RequiredFieldValidator>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="form-group col-xs-12">
+                                        <div class="form-group col-xs-12" style="margin-bottom: 0px;">
                                             <label for="password" class="sr-only">Password</label>
-                                            <input id="password" class="form-control input-group-lg" type="password" name="password" title="Enter password" placeholder="Password">
+                                            <input id="password" class="form-control input-group-lg" type="password" name="password" title="Masukan password" placeholder="Password">
+                                            <%-- <asp:RequiredFieldValidator ID="reqval_password" runat="server" ErrorMessage="Inputan password harus diisi" CssClass="text-danger" ControlToValidate="password"></asp:RequiredFieldValidator>--%>
+                                            <asp:RequiredFieldValidator ID="reqval_password" runat="server" ErrorMessage="Inputan nama harus diisi" CssClass="text-danger" ControlToValidate="test"></asp:RequiredFieldValidator>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="form-group col-xs-12">
-                                            <label for="conf-password" class="sr-only">Konfirmasi Password</label>
-                                            <input id="conf-password" class="form-control input-group-lg" type="password" name="conf-password" title="Enter conf-password" placeholder="Konfirmasi Password">
+                                        <label for="conf_ps" class="sr-only">Konfirmasi Password</label>
+                                        <div class="form-group col-xs-12" style="margin-bottom: 0px;">
+                                            <%--<input type="password" id="conf_ps" runat="server" class="form-control input-group-lg" placeholder="Nama" name="conf_ps" />--%>
+                                            <input id="conf_ps" runat="server" class="form-control input-group-lg" type="password" name="conf_ps" title="Enter Konfrimasi Password" placeholder="Konfirmasi Password">
+                                            <asp:RequiredFieldValidator ID="reqval_confpassword" runat="server" ErrorMessage="Inputan password harus diisi" CssClass="text-danger" ControlToValidate="conf_ps"></asp:RequiredFieldValidator>
                                         </div>
                                     </div>
 
 
 
-                                </form>
                                 <!--Register Now Form Ends-->
                                 <p><a href="#">Sudah punya akun?</a></p>
-                                <button class="btn btn-primary">Register Sekarang</button>
+                                <%--<button type="submit" class="btn btn-primary">Register Sekarang</button>--%>
+                                    <asp:Button ID="Button1" runat="server" Text="Register Sekarang" class="btn btn-primary" />
+                                </form>
                             </div>
                             <!--Registration Form Contents Ends-->
 
@@ -73,14 +87,14 @@
                                 <form name="Login_form" id="Login_form">
                                     <div class="row">
                                         <div class="form-group col-xs-12">
-                                            <label for="my-email" class="sr-only">Email</label>
-                                            <input id="my-email" class="form-control input-group-lg" type="text" name="Email" title="Enter Email" placeholder="Username">
+                                            <label for="log-username" class="sr-only">Email</label>
+                                            <input id="log-username" class="form-control input-group-lg" type="text" name="Username" title="Enter Email" placeholder="Username">
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="form-group col-xs-12">
-                                            <label for="my-password" class="sr-only">Password</label>
-                                            <input id="my-password" class="form-control input-group-lg" type="password" name="password" title="Enter password" placeholder="Password">
+                                            <label for="log-password" class="sr-only">Password</label>
+                                            <input id="log-password" class="form-control input-group-lg" type="password" name="password" title="Enter password" placeholder="Password">
                                         </div>
                                     </div>
                                 </form>
@@ -95,3 +109,4 @@
         </div>
     </div>
 </asp:Content>
+

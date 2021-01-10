@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/ionicons.min.css" />
     <link rel="stylesheet" href="../css/font-awesome.min.css" />
+     <link rel="stylesheet" href="../css/CustomCSS.css" />
 
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
 
@@ -59,10 +60,56 @@
         </nav>
     </header>
     <body>
-        <form id="form1" runat="server">
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
-        </form>
+        
+            <div class="container">
+
+                <!-- Timeline
+      ================================================= -->
+                <div class="timeline">
+                    <div class="timeline-cover">
+
+                        <!--Timeline Menu for Large Screens-->
+                        <div class="timeline-nav-bar hidden-sm hidden-xs">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="profile-info">
+                                        <asp:ContentPlaceHolder ID="ProfileContent" runat="server">
+                                        </asp:ContentPlaceHolder>
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <ul class="list-inline profile-menu">
+                                        <li><a href="Profile.aspx">Beranda</a></li>
+                                        <li><a href="TentangUMKM.aspx">About</a></li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--Timeline Menu for Large Screens End-->
+
+                        <!--Timeline Menu for Small Screens-->
+                        <div class="navbar-mobile hidden-lg hidden-md">
+                            <div class="profile-info">
+                                <asp:Image ID="Image1" runat="server" AlternateText="user" CssClass="img-responsive profile-photo" ImageUrl="~/images/user3.jpg" />
+                                <%--<img src="http://placehold.it/300x300" alt="" class="img-responsive profile-photo">--%>
+                                <h3>ClothMuk</h3>
+                                <p class="text-muted">UMKM Bidang Pakaian</p>
+                            </div>
+                            <div class="mobile-menu">
+                                <ul class="list-inline">
+                                    <li><a href="Profile.aspx">Beranda</a></li>
+                                    <li><a href="TentangUMKM.aspx">About</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <!--Timeline Menu for Small Screens End-->
+
+                    </div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+      
         <%-- <footer id="footer">
                         <div class="copyright">
                             <p>Thunder Team © 2020. All rights reserved</p>

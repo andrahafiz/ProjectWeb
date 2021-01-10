@@ -23,13 +23,22 @@ Partial Public Class UtamaUMKM
     Protected WithEvents LinkIconBeranda As Global.System.Web.UI.WebControls.HyperLink
 
     '''<summary>
-    '''form1 control.
+    '''ProfileContent control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
+    Protected WithEvents ProfileContent As Global.System.Web.UI.WebControls.ContentPlaceHolder
+
+    '''<summary>
+    '''Image1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Image1 As Global.System.Web.UI.WebControls.Image
 
     '''<summary>
     '''ContentPlaceHolder1 control.

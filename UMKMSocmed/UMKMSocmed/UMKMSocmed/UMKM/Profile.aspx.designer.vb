@@ -32,15 +32,6 @@ Partial Public Class Profile
     Protected WithEvents Image6 As Global.System.Web.UI.WebControls.Image
 
     '''<summary>
-    '''Image2 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Image2 As Global.System.Web.UI.WebControls.Image
-
-    '''<summary>
     '''Image1 control.
     '''</summary>
     '''<remarks>
@@ -66,6 +57,42 @@ Partial Public Class Profile
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Image5 As Global.System.Web.UI.WebControls.Image
+
+    '''<summary>
+    '''Image12 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Image12 As Global.System.Web.UI.WebControls.Image
+
+    '''<summary>
+    '''Image13 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Image13 As Global.System.Web.UI.WebControls.Image
+
+    '''<summary>
+    '''Image10 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Image10 As Global.System.Web.UI.WebControls.Image
+
+    '''<summary>
+    '''Image11 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Image11 As Global.System.Web.UI.WebControls.Image
 
     '''<summary>
     '''Image7 control.
