@@ -50,6 +50,7 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right main-menu">
               <li class="dropdown"><a href="contact.html">Login Guest</a></li>
+                <li class="dropdown"><a href="contact.html">Login UMKM</a></li>
             </ul>
            
            
@@ -58,12 +59,12 @@
       </nav>
     </header>
     <!--Header End-->
-    <form id="form1" runat="server">
+
  
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
 
-    </form>  
+
   <!--preloader-->
     <div id="spinner-wrapper">
       <div class="spinner"></div>

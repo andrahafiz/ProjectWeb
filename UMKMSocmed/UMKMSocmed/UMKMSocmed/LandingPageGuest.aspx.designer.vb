@@ -14,13 +14,13 @@ Option Explicit On
 Partial Public Class LandingPage
 
     '''<summary>
-    '''test control.
+    '''nama_inp control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents test As Global.System.Web.UI.HtmlControls.HtmlInputText
+    Protected WithEvents nama_inp As Global.System.Web.UI.HtmlControls.HtmlInputText
 
     '''<summary>
     '''reqval_nama control.
@@ -48,6 +48,15 @@ Partial Public Class LandingPage
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents reqval_username As Global.System.Web.UI.WebControls.RequiredFieldValidator
+
+    '''<summary>
+    '''password control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents password As Global.System.Web.UI.HtmlControls.HtmlInputPassword
 
     '''<summary>
     '''reqval_password control.

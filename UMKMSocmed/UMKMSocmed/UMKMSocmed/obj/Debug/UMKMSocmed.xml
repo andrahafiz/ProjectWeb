@@ -37,6 +37,150 @@ UMKMSocmed
  Returns the Asp log object.
  </summary>
 </member>
+<member name="F:UMKMSocmed.Auth._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.Auth._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.Beranda1._label_username">
+<summary>
+label_username control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.Beranda1._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.Beranda1._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.Beranda1._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.Login._username">
+<summary>
+username control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.Login._password">
+<summary>
+password control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.Login._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.MasterAdmin._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.MasterAdmin._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.MasterAdmin._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.Register_Adm._nama">
+<summary>
+nama control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.Register_Adm._username">
+<summary>
+username control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.Register_Adm._password">
+<summary>
+password control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.Register_Adm._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:UMKMSocmed.Beranda._Image2">
 <summary>
 Image2 control.
@@ -94,6 +238,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:UMKMSocmed.Beranda._Image8">
 <summary>
 Image8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.Beranda._username_label">
+<summary>
+username_label control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -217,9 +370,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:UMKMSocmed.LandingPage._test">
+<member name="F:UMKMSocmed.LandingPage._nama_inp">
 <summary>
-test control.
+nama_inp control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -253,6 +406,15 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:UMKMSocmed.LandingPage._password">
+<summary>
+password control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:UMKMSocmed.LandingPage._reqval_password">
 <summary>
 reqval_password control.
@@ -280,9 +442,36 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:UMKMSocmed.Site1._form1">
+<member name="F:UMKMSocmed.LandingPage._Button1">
 <summary>
-form1 control.
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.LandingPageGuest_Login._log_username">
+<summary>
+log_username control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.LandingPageGuest_Login._log_password">
+<summary>
+log_password control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.LandingPageGuest_Login._Button1">
+<summary>
+Button1 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -310,6 +499,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:UMKMSocmed.Utama._Image1">
 <summary>
 Image1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:UMKMSocmed.Utama._username_content">
+<summary>
+username_content control.
 </summary>
 <remarks>
 Auto-generated field.

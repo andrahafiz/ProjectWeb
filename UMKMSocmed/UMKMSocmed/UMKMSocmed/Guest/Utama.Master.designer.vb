@@ -32,6 +32,15 @@ Partial Public Class Utama
     Protected WithEvents Image1 As Global.System.Web.UI.WebControls.Image
 
     '''<summary>
+    '''username_content control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents username_content As Global.System.Web.UI.WebControls.ContentPlaceHolder
+
+    '''<summary>
     '''form1 control.
     '''</summary>
     '''<remarks>

@@ -89,3 +89,6 @@
         </div>
     </div>
 </asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="username_content" runat="server">
+    <asp:Label ID="username_label" runat="server" Text="Label"></asp:Label>
+</asp:Content>

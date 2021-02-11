@@ -42,9 +42,9 @@
                         <span class="icon-bar"></span>
                     </button>
 
-                    
-                        <asp:HyperLink ID="LinkIconBeranda" runat="server" CssClass="navbar-brand" NavigateUrl="~/Guest/Beranda.aspx"> <img src="" alt="logo" /></asp:HyperLink>
-             
+
+                    <asp:HyperLink ID="LinkIconBeranda" runat="server" CssClass="navbar-brand" NavigateUrl="~/Guest/Beranda.aspx"> <img src="" alt="logo" /></asp:HyperLink>
+
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -71,25 +71,31 @@
                         <div class="profile-card">
                             <asp:Image ID="Image1" runat="server" AlternateText="user" CssClass="profile-photo" ImageUrl="~/images/user1.jpg" />
                             <%--<img src="../images/user1.jpg" alt="user" class="profile-photo" />--%>
-                            <h5><a href="timeline.html" class="text-white">John Lufth</a></h5>
+                            <h5><a href="timeline.html" class="text-white">
+                                <asp:ContentPlaceHolder ID="username_content" runat="server">
+    </asp:ContentPlaceHolder>
+                            </a></h5>
                             <a href="#" class="text-white"><i class="ion ion-android-person-add"></i>1,299 followers</a>
                         </div>
                         <!--profile card ends-->
                         <ul class="nav-news-feed">
                             <li><i class="icon ion-ios-paper"></i>
                                 <div>
-                                    <asp:HyperLink NavigateUrl="~/Guest/Beranda.aspx" runat="server">POSTINGAN</asp:HyperLink></div>
+                                    <asp:HyperLink NavigateUrl="~/Guest/Beranda.aspx" runat="server">POSTINGAN</asp:HyperLink>
+                                </div>
                             </li>
                             </li>
                         <li><i class="icon ion-ios-people"></i>
                             <div>
-                                <asp:HyperLink NavigateUrl="~/Guest/UMKM.aspx" runat="server">UMKM</asp:HyperLink></div>
+                                <asp:HyperLink NavigateUrl="~/Guest/UMKM.aspx" runat="server">UMKM</asp:HyperLink>
+                            </div>
                         </li>
                             <li><i class="icon ion-ios-people-outline"></i>
                                 <div>
-                                    <asp:HyperLink NavigateUrl="~/Guest/ListUMKM.aspx" runat="server">UMKM YANG DIIKUTI</asp:HyperLink></div>
+                                    <asp:HyperLink NavigateUrl="~/Guest/ListUMKM.aspx" runat="server">UMKM YANG DIIKUTI</asp:HyperLink>
+                                </div>
                             </li>
-                           
+
                         </ul>
 
                     </div>
@@ -99,7 +105,7 @@
                         </asp:ContentPlaceHolder>
 
                     </form>
-                 
+
                     <div id="spinner-wrapper">
                         <div class="spinner"></div>
                     </div>

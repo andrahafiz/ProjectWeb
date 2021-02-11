@@ -16,8 +16,8 @@
                         <!-- Register/Login Tabs-->
                         <div class="reg-options">
                             <ul class="nav nav-tabs">
-                                <li class="active"><a href="#register" data-toggle="tab" aria-expanded="true">Register</a></li>
-                                <li class=""><a href="#login" data-toggle="tab" aria-expanded="false">Login</a></li>
+                                <li class="active"><a href="#register" data-toggle="tab" aria-expanded="true">Register Guest</a></li>
+                               
                             </ul>
                             <!--Tabs End-->
                         </div>
@@ -26,10 +26,10 @@
                         <div class="tab-content">
                             <div class="tab-pane active" id="register">
                                 <h3>Register Now !!!</h3>
-
+                                
 
                                 <!--Register Form-->
-                                <form name="registration_form" id="registration_form" class="form-inline" action="Guest/Beranda.aspx" >
+                                <form runat="server" >
                                     <div class="row">
                                         <div class="form-group col-xs-12 " style="margin-bottom: 0px;">
 
@@ -38,8 +38,8 @@
                                             <%--<input name="name" type="text" runat="server" id="reg-name"  class="form-control input-group-lg" placeholder="Nama" />--%>
                                             <%--<input id="name" class="form-control input-group-lg" type="text" name="name" title="Enter Name" placeholder="Your Name">--%>
                                             <%--<input type="text" runat="server" class="form-control input-group-lg" id="regis-name" name="name" />--%>
-                                            <input type="text" id="test" runat="server" class="form-control input-group-lg" placeholder="Nama" />
-                                            <asp:RequiredFieldValidator ID="reqval_nama" runat="server" ErrorMessage="Inputan nama harus diisi" CssClass="text-danger" ControlToValidate="test"></asp:RequiredFieldValidator>
+                                            <input type="text" ID="nama_inp" runat="server" class="form-control input-group-lg" placeholder="Nama" />
+                                            <asp:RequiredFieldValidator ID="reqval_nama" runat="server" ErrorMessage="Inputan nama harus diisi" CssClass="text-danger" ControlToValidate="nama_inp"></asp:RequiredFieldValidator>
 
                                         </div>
                                     </div>
@@ -47,16 +47,16 @@
                                     <div class="row">
                                         <div class="form-group col-xs-12" style="margin-bottom: 0px;">
                                             <label for="username" class="sr-only">Username</label>
-                                            <input id="username" runat="server" class="form-control input-group-lg" type="text" name="username" title="Masukan username" placeholder="Username">
+                                            <input ID="username" runat="server" class="form-control input-group-lg" type="text" name="username" title="Masukan username" placeholder="Username">
                                             <asp:RequiredFieldValidator ID="reqval_username" runat="server" ErrorMessage="Inputan username harus diisi" CssClass="text-danger" ControlToValidate="username"></asp:RequiredFieldValidator>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="form-group col-xs-12" style="margin-bottom: 0px;">
                                             <label for="password" class="sr-only">Password</label>
-                                            <input id="password" class="form-control input-group-lg" type="password" name="password" title="Masukan password" placeholder="Password">
+                                            <input ID="password" runat="server" class="form-control input-group-lg" type="password" name="password" title="Masukan password" placeholder="Password">
                                             <%-- <asp:RequiredFieldValidator ID="reqval_password" runat="server" ErrorMessage="Inputan password harus diisi" CssClass="text-danger" ControlToValidate="password"></asp:RequiredFieldValidator>--%>
-                                            <asp:RequiredFieldValidator ID="reqval_password" runat="server" ErrorMessage="Inputan nama harus diisi" CssClass="text-danger" ControlToValidate="test"></asp:RequiredFieldValidator>
+                                            <asp:RequiredFieldValidator ID="reqval_password" runat="server" ErrorMessage="Inputan nama harus diisi" CssClass="text-danger" ControlToValidate="password"></asp:RequiredFieldValidator>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -71,37 +71,15 @@
 
 
                                 <!--Register Now Form Ends-->
-                                <p><a href="#">Sudah punya akun?</a></p>
+                                <p><a href="LandingPageGuest_Login.aspx">Sudah punya akun?</a></p>
                                 <%--<button type="submit" class="btn btn-primary">Register Sekarang</button>--%>
                                     <asp:Button ID="Button1" runat="server" Text="Register Sekarang" class="btn btn-primary" />
-                                </form>
                             </div>
+                                </form>
                             <!--Registration Form Contents Ends-->
 
                             <!--Login-->
-                            <div class="tab-pane" id="login">
-                                <h3>Login Guest</h3>
-                                <p class="text-muted">Log into your account</p>
-
-                                <!--Login Form-->
-                                <form name="Login_form" id="Login_form">
-                                    <div class="row">
-                                        <div class="form-group col-xs-12">
-                                            <label for="log-username" class="sr-only">Email</label>
-                                            <input id="log-username" class="form-control input-group-lg" type="text" name="Username" title="Enter Email" placeholder="Username">
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="form-group col-xs-12">
-                                            <label for="log-password" class="sr-only">Password</label>
-                                            <input id="log-password" class="form-control input-group-lg" type="password" name="password" title="Enter password" placeholder="Password">
-                                        </div>
-                                    </div>
-                                </form>
-                                <!--Login Form Ends-->
-
-                                <button class="btn btn-primary">Login Now</button>
-                            </div>
+                       
                         </div>
                     </div>
                 </div>

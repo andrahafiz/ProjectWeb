@@ -53,7 +53,6 @@ D:\3 TI A\Semester 5\WEB\ProjectWEB\UMKMSocmed\UMKMSocmed\UMKMSocmed\bin\roslyn\
 D:\3 TI A\Semester 5\WEB\ProjectWEB\UMKMSocmed\UMKMSocmed\UMKMSocmed\bin\roslyn\VBCSCompiler.exe.config
 D:\3 TI A\Semester 5\WEB\ProjectWEB\UMKMSocmed\UMKMSocmed\UMKMSocmed\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\3 TI A\Semester 5\WEB\ProjectWEB\UMKMSocmed\UMKMSocmed\UMKMSocmed\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\3 TI A\Semester 5\WEB\ProjectWEB\UMKMSocmed\UMKMSocmed\UMKMSocmed\obj\Debug\UMKMSocmed.vbprojAssemblyReference.cache
 D:\3 TI A\Semester 5\WEB\ProjectWEB\UMKMSocmed\UMKMSocmed\UMKMSocmed\obj\Debug\UMKMSocmed.Resources.resources
 D:\3 TI A\Semester 5\WEB\ProjectWEB\UMKMSocmed\UMKMSocmed\UMKMSocmed\obj\Debug\UMKMSocmed.vbproj.GenerateResource.cache
 D:\3 TI A\Semester 5\WEB\ProjectWEB\UMKMSocmed\UMKMSocmed\UMKMSocmed\obj\Debug\UMKMSocmed.vbproj.CoreCompileInputs.cache
@@ -61,3 +60,4 @@ D:\3 TI A\Semester 5\WEB\ProjectWEB\UMKMSocmed\UMKMSocmed\UMKMSocmed\obj\Debug\U
 D:\3 TI A\Semester 5\WEB\ProjectWEB\UMKMSocmed\UMKMSocmed\UMKMSocmed\obj\Debug\UMKMSocmed.dll
 D:\3 TI A\Semester 5\WEB\ProjectWEB\UMKMSocmed\UMKMSocmed\UMKMSocmed\obj\Debug\UMKMSocmed.xml
 D:\3 TI A\Semester 5\WEB\ProjectWEB\UMKMSocmed\UMKMSocmed\UMKMSocmed\obj\Debug\UMKMSocmed.pdb
+D:\3 TI A\Semester 5\WEB\ProjectWEB\UMKMSocmed\UMKMSocmed\UMKMSocmed\obj\Debug\UMKMSocmed.vbprojAssemblyReference.cache

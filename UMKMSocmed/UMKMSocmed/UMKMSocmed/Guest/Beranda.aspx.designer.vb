@@ -75,4 +75,13 @@ Partial Public Class Beranda
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Image8 As Global.System.Web.UI.WebControls.Image
+
+    '''<summary>
+    '''username_label control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents username_label As Global.System.Web.UI.WebControls.Label
 End Class
